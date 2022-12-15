@@ -21,7 +21,7 @@
         <label for="task-name">Task Name</label>
         <input type="text" class="form-control" id="task-name" placeholder="Enter task name">
       </div>
-      <button type="submit" class="btn btn-primary">Add Task</button>
+      <button type="submit" class="btn btn-primary" onClick="inputTask()">Add Task</button>
     </form>
 
     <h2 class="mt-5">Tasks</h2>
@@ -31,7 +31,7 @@
         Default checkbox
       </label>
     </div>
-    <ul class="list-group mt-3">
+    <ul method="GET" class="list-group mt-3">
       <li class="list-group-item">Task 1</li>
       <li class="list-group-item">Task 2</li>
       <li class="list-group-item">Task 3</li>
